@@ -33,8 +33,7 @@ while True:
     user = {'first_name': first_name,
             'last_name': last_name,
             'Email': Email,
-            'password': password
-            }
+            'password': password }
     user_data = "user" + str(user_number), "details:", user
     user_details.append(user_data)
     user_number = user_number+1
