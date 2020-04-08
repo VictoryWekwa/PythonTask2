@@ -36,7 +36,6 @@ while True:
             'password': password
             }
     user_data = "user" + str(user_number), "details:", user
-    print(user_data)
     user_details.append(user_data)
     user_number = user_number+1
     cont = input("Do you want to add another user? Enter yes or no ")
